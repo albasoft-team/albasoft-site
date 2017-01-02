@@ -1,0 +1,52 @@
+{
+  "pageId":{
+    "page":{
+      "header":{
+        "image":"img/solutions1.jpg",
+        "title":"Nos services",
+        "descrition":" notre  description",
+        "text":"texte complet"
+      },
+      "Sections":[
+        {
+          "meta":{
+            "imageposition":"height",
+            "class":"classname",
+            "layout":"panel"
+          },
+          "columns":[
+            {
+              "title":"Ingenierie logicielle",
+              "image":"img/Service-Informatique.jpg",
+              "description":"Cliquez ici pour paramétrer le texte. Double cliquez et utilisez la barre de menu au dessus pour paramétrer votre texte. Cliquez sur le bloc de texte pour paramétrer celui-ci grâce à la palette de paramétrage",
+              "text":"long description1"
+            },
+            {
+              "title":"Consulting",
+              "image":"img/service2.jpg",
+              "description":"Cliquez ici pour paramétrer le texte. Double cliquez et utilisez la barre de menu au dessus pour paramétrer votre texte. Cliquez sur le bloc de texte pour paramétrer celui-ci grâce à la palette de paramétrage.",
+              "text":"long description2"
+            },
+            {
+              "title":"Academy",
+              "image":"img/academie.jpg",
+              "description":"Cliquez ici pour paramétrer le texte. Double cliquez et utilisez la barre de menu au dessus pour paramétrer votre texte. Cliquez sur le bloc de texte pour paramétrer celui-ci grâce à la palette de paramétrage.",
+              "text":"long description3"
+            }
+          ]
+        },
+        {
+          "meta":{
+            "imageposition":"height",
+            "class":"classname",
+            "layout":"tabs"
+          },
+          "columns":[
+            {"title":"column title1","image":"img/Service-Informatique.jpg","description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, beatae eveniet fugiat nemo neque quis tenetur. Assumenda culpa dolores earum inventore itaque libero maxime necessitatibus nesciunt, quam quo vero voluptatum.","text":"long description1"},
+            {"title":"column title2","image":"img/Service-Informatique.jpg","description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, beatae eveniet fugiat nemo neque quis tenetur. Assumenda culpa dolores earum inventore itaque libero maxime necessitatibus nesciunt, quam quo vero voluptatum.","text":"long description2"}
+          ]
+        }
+      ]
+    }
+  }
+}

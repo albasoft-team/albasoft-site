@@ -1,0 +1,52 @@
+{
+  "pageId":{
+    "page":{
+      "header":{
+        "image":"img/informatique.jpg",
+        "title":"Notre objectif : Pousser votre entreprise au niveau supérieur",
+        "description":" description",
+        "text":"texte complet"
+      },
+      "Sections":[
+        {
+          "meta":{
+            "imageposition":"height",
+            "class":"classname",
+            "layout":"panel"
+          },
+          "columns":[
+            {
+              "title":"Des idées innovantes",
+              "image":"img/innov.png",
+              "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, beatae eveniet fugiat nemo neque quis tenetur. Assumenda culpa dolores earum inventore itaque libero maxime necessitatibus nesciunt, quam quo vero voluptatum.",
+              "text":"long description1"
+            },
+            {
+              "title":"Une équipe qualifiée ",
+              "image":"img/equipe.jpg",
+              "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, beatae eveniet fugiat nemo neque quis tenetur. Assumenda culpa dolores earum inventore itaque libero maxime necessitatibus nesciunt, quam quo vero voluptatum.",
+              "text":"long description2"
+            },
+            {
+              "title":"Des résultats",
+              "image":"img/resultat.jpg",
+              "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, beatae eveniet fugiat nemo neque quis tenetur. Assumenda culpa dolores earum inventore itaque libero maxime necessitatibus nesciunt, quam quo vero voluptatum.",
+              "text":"long description3"
+            }
+          ]
+        },
+        {
+          "meta":{
+            "imageposition":"height",
+            "class":"classname",
+            "layout":"tabs"
+          },
+          "columns":[
+            {"title":"Qualité","image":"img/qualite.jpg","description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, beatae eveniet fugiat nemo neque quis tenetur. Assumenda culpa dolores earum inventore itaque libero maxime necessitatibus nesciunt, quam quo vero voluptatum.","text":"long description1"},
+            {"title":"Délais","image":"img/delai.jpg","description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, beatae eveniet fugiat nemo neque quis tenetur. Assumenda culpa dolores earum inventore itaque libero maxime necessitatibus nesciunt, quam quo vero voluptatum.","text":"long description2"}
+          ]
+        }
+      ]
+    }
+  }
+}
