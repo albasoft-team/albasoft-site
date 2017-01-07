@@ -3,9 +3,9 @@
     "page":{
       "header":{
         "image":"img/solutions1.jpg",
-        "title":"A propos de nous",
+        "title":"Qui sommes-nous",
         "description":"",
-        "texteLong":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, beatae eveniet fugiat nemo neque quis tenetur. Assumenda culpa dolores earum inventore itaque libero maxime necessitatibus nesciunt, quam quo vero voluptatum."
+        "texteLong":"ALBASOFT est une société française spécialisée dans le conseil en systèmes et logiciels informatiques. En régie ou au forfait, ALBASOFT mène des missions à grande valeur ajoutée pour ses clients."
       },
       "Sections":[
         {
@@ -21,13 +21,12 @@
               "description":"Nous sommes une société de services informatiques spécialisée dans la gestion et la réalisation de projets de développement logiciel, et présente au travers de ses agences sur les territoires français et sénégalais.",
               "text":"long description1",
               "col" : {
-                "title" : "Ce que nous sommes capables",
+                "title" : "Nos compétences",
                 "desc" : [
-                  {"texte" : "savoir 1"},
-                  {"texte" : "savoir 2"},
-                  {"texte" : "savoir 3"},
-                  {"texte" : "savoir 4"},
-                  {"texte" : "savoir 5"}
+                  {"texte" : "Business Intelligent (BI)"},
+                  {"texte" : "Ingénieurie logiciels" },
+                  {"texte" : "Conseil en organisation SI"},
+                  {"texte" : "GED"}
                 ]
               }
             },

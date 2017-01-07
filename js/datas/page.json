@@ -3,9 +3,9 @@
     "page":{
       "header":{
         "image":"img/informatique.jpg",
-        "title":"Notre objectif : Pousser votre entreprise au niveau supérieur",
+        "title":"Notre objectif : Vous aider hisser votre entreprise au sommet de la performance",
         "description":" description",
-        "text":"texte complet"
+        "text":""
       },
       "Sections":[
         {
@@ -18,20 +18,14 @@
             {
               "title":"Des idées innovantes",
               "image":"img/innov.png",
-              "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, beatae eveniet fugiat nemo neque quis tenetur. Assumenda culpa dolores earum inventore itaque libero maxime necessitatibus nesciunt, quam quo vero voluptatum.",
+              "description":"Constamment à la recherche de la performance, notre entreprise est au plus près de ses clients pour leur proposer ses meilleures idées en termes d'exploitation des données",
               "text":"long description1"
             },
             {
               "title":"Une équipe qualifiée ",
               "image":"img/equipe.jpg",
-              "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, beatae eveniet fugiat nemo neque quis tenetur. Assumenda culpa dolores earum inventore itaque libero maxime necessitatibus nesciunt, quam quo vero voluptatum.",
+              "description":"Une équipe de pros au service de votre entreprise ",
               "text":"long description2"
-            },
-            {
-              "title":"Des résultats",
-              "image":"img/resultat.jpg",
-              "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, beatae eveniet fugiat nemo neque quis tenetur. Assumenda culpa dolores earum inventore itaque libero maxime necessitatibus nesciunt, quam quo vero voluptatum.",
-              "text":"long description3"
             }
           ]
         },
@@ -42,8 +36,8 @@
             "layout":"tabs"
           },
           "columns":[
-            {"title":"Qualité","image":"img/qualite.jpg","description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, beatae eveniet fugiat nemo neque quis tenetur. Assumenda culpa dolores earum inventore itaque libero maxime necessitatibus nesciunt, quam quo vero voluptatum.","text":"long description1"},
-            {"title":"Délais","image":"img/delai.jpg","description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, beatae eveniet fugiat nemo neque quis tenetur. Assumenda culpa dolores earum inventore itaque libero maxime necessitatibus nesciunt, quam quo vero voluptatum.","text":"long description2"}
+            {"title":"Qualité","image":"img/qualite.jpg","description":"","text":"long description1"},
+            {"title":"Délais","image":"img/delai.jpg","description":"","text":"long description2"}
           ]
         }
       ]
