@@ -1,0 +1,26 @@
+{
+  "name": "albasoft-site",
+  "authors": [
+    "albasoft-team <ibrahima-sory.diallo@albasoft.fr>"
+  ],
+  "description": "site de albasoft",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-google-maps": "2.4.0",
+    "angular-animate": "^1.6.0",
+    "angular-touch": "^1.6.0",
+    "angular-ui-router-anim-in-out": "^1.0.2",
+    "angular-ui-router": "^0.3.2",
+    "angular": "^1.6.1"
+  }
+}

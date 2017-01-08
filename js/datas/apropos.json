@@ -1,0 +1,48 @@
+{
+  "pageId":{
+    "page":{
+      "header":{
+        "image":"img/solutions1.jpg",
+        "title":"A propos de nous",
+        "description":"",
+        "texteLong":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, beatae eveniet fugiat nemo neque quis tenetur. Assumenda culpa dolores earum inventore itaque libero maxime necessitatibus nesciunt, quam quo vero voluptatum."
+      },
+      "Sections":[
+        {
+          "meta":{
+            "imageposition":"height",
+            "class":"classname",
+            "layout":"panel"
+          },
+          "columns":[
+            {
+              "title":"Qui sommes nous ?",
+              "image":"img/apropo.jpg",
+              "description":"Nous sommes une société de services informatiques spécialisée dans la gestion et la réalisation de projets de développement logiciel, et présente au travers de ses agences sur les territoires français et sénégalais.",
+              "text":"long description1",
+              "col" : {
+                "title" : "Ce que nous sommes capables",
+                "desc" : [
+                  {"texte" : "savoir 1"},
+                  {"texte" : "savoir 2"},
+                  {"texte" : "savoir 3"},
+                  {"texte" : "savoir 4"},
+                  {"texte" : "savoir 5"}
+                ]
+              }
+            },
+            {
+              "title":"Pourquoi travailler avec nous ? ",
+              "image":"",
+              "description":"Notre souhait est de vous satisfaire pleinement en répondant au mieux à vos exigences et en nous donnant les moyens de vous garantir nos engagements en terme de Qualité, Coûts & Délais.",
+              "text":"long description2",
+              "col" : {
+
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

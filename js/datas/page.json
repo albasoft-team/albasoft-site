@@ -1,0 +1,52 @@
+{
+  "pageId":{
+    "page":{
+      "header":{
+        "image":"img/informatique.jpg",
+        "title":"Notre objectif : Pousser votre entreprise au niveau supérieur",
+        "description":" description",
+        "text":"texte complet"
+      },
+      "Sections":[
+        {
+          "meta":{
+            "imageposition":"height",
+            "class":"classname",
+            "layout":"panel"
+          },
+          "columns":[
+            {
+              "title":"Des idées innovantes",
+              "image":"img/innov.png",
+              "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, beatae eveniet fugiat nemo neque quis tenetur. Assumenda culpa dolores earum inventore itaque libero maxime necessitatibus nesciunt, quam quo vero voluptatum.",
+              "text":"long description1"
+            },
+            {
+              "title":"Une équipe qualifiée ",
+              "image":"img/equipe.jpg",
+              "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, beatae eveniet fugiat nemo neque quis tenetur. Assumenda culpa dolores earum inventore itaque libero maxime necessitatibus nesciunt, quam quo vero voluptatum.",
+              "text":"long description2"
+            },
+            {
+              "title":"Des résultats",
+              "image":"img/resultat.jpg",
+              "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, beatae eveniet fugiat nemo neque quis tenetur. Assumenda culpa dolores earum inventore itaque libero maxime necessitatibus nesciunt, quam quo vero voluptatum.",
+              "text":"long description3"
+            }
+          ]
+        },
+        {
+          "meta":{
+            "imageposition":"height",
+            "class":"classname",
+            "layout":"tabs"
+          },
+          "columns":[
+            {"title":"Qualité","image":"img/qualite.jpg","description":"Albasoft vous garantie des applications de bonnes qualitées en vous livrant des produits fiables, faciles d'utilisation, performants, maintenables avec une capacité fonctionnelle assurée.","text":"long description1"},
+            {"title":"Délais","image":"img/delai.jpg","description":"L'équipe de ALBASOFT definit le bon séquencement et la priorisation des tâches et bien d'autres aspects importants dans la gestion de projets pour mener à bien et a terme les missions de mise en oeuvre de solutions dans le delai","text":"long description2"}
+          ]
+        }
+      ]
+    }
+  }
+}
