@@ -24,9 +24,10 @@
                 "title" : "Nos compétences",
                 "desc" : [
                   {"texte" : "Business Intelligent (BI)"},
-                  {"texte" : "Ingénieurie logiciels" },
-                  {"texte" : "Conseil en organisation SI"},
-                  {"texte" : "GED"}
+                  {"texte" : "GED"},
+                  {"texte" : "Ingénierie logicielle" },
+                  {"texte" : "Conseil en organisation SI"}
+
                 ]
               }
             },
