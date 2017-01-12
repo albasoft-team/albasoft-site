@@ -37,7 +37,13 @@
               "description":"Notre souhait est de vous satisfaire pleinement en répondant au mieux à vos exigences et en nous donnant les moyens de vous garantir nos engagements en terme de Qualité, Coûts & Délais.",
               "text":"long description2",
               "col" : {
-
+                "title" : "Domaines d'activités",
+                "desc" : [
+                  {"texte" : "Banque-assurance"},
+                  {"texte" : "Habitat"},
+                  {"texte" : "Santé"},
+                  {"texte" : "Service pubblic"}
+                ]
               }
             }
           ]
