@@ -16,9 +16,9 @@
           },
           "columns":[
             {
-              "title":"Business Intelligence",
+              "title":"Business Intelligent",
               "image":"img/business_intelligence.png",
-              "description":"Avec notre équipe spécialisée BI, Albasoft est au fait des dernières innovations en matière d’analyse de données. Aujourd’hui, la capacité de recherche avec un résultat précis dans différentes sources de données est un enjeu majeur pour toutes les entreprises avec l’avènement du BIG DATA. En effet, les modes de recueil et de consultation des données ont fortement évolués ces 10 dernières années à travers l’apparition de divers supports de communication. Accéder à l’information où que l’on se trouve constitue un enjeu économique crucial pour toute entreprise soucieuse de sa rentabilité. C’est fort de cette conviction qu’ALBASOFT s’est doté d’une équipe d’experts BI pouvant répondre à tous vos besoins en matière d’analyse, d’interprétation et de représentation de vos données. Nos outils BI vous donnent une visibilité à temps réel sur l’ensemble des activités de votre entreprise vous aidant ainsi à prendre rapidement les bonnes décisions.",
+              "description":"Avec notre équipe spécialisée BI, Albasoft est au fait des dernières innovations en matière d’analyse de données. Aujourd’hui, la capacité de recherche avec un résultat précis dans différentes sources de données est un enjeu majeur pour toutes les entreprises avec l’avènement du BIG DATA. En effet, les modes de recueil et de consultation des données ont fortement évolué ces 10 dernières années à travers l’apparition de divers supports de communication. Accéder à l’information où que l’on se trouve constitue un enjeu économique crucial pour toute entreprise soucieuse de sa rentabilité. C’est fort de cette conviction qu’ALBASOFT s’est doté d’une équipe d’experts BI pouvant répondre à tous vos besoins en matière d’analyse, d’interprétation et de représentation de vos données. Nos outils BI vous donnent une visibilité à temps réel sur l’ensemble des activités de votre entreprise vous aidant ainsi à prendre rapidement les bonnes décisions.",
               "text":"long description1"
             },
             {
@@ -28,9 +28,9 @@
               "text":"long description2"
             },
             {
-              "title":"Ingenierie logicielle",
+              "title":"Ingénierie logicielle",
               "image":"img/ingenierie-icon.png",
-              "description":"En synergie avec nous, nous vous proposons nos conseils, et assurons des prestations en réalisation et en maintenance de vos logiciels selon les méthodes agiles. Cela vous assure une visibilité durant tout le cycle de réalisation de votre projet en vous impliquant du début à la fin évitant ainsi l'effet tunnel. ",
+              "description":"Travaillant en synergie, nous vous proposons nos conseils et assurons des prestations en réalisation et en maintenance de vos logiciels selon les méthodes agiles. Cela vous assure une visibilité durant tout le cycle de réalisation de votre projet en vous impliquant du début à la fin évitant ainsi l'effet tunnel. ",
               "text":"long description3"
             }
           ]
