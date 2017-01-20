@@ -21,6 +21,7 @@
     "angular-touch": "^1.6.0",
     "angular-ui-router-anim-in-out": "^1.0.2",
     "angular-ui-router": "^0.3.2",
-    "angular": "^1.6.1"
+    "angular": "^1.6.1",
+    "angular-spinner": "^0.8.1"
   }
 }

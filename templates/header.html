@@ -1,104 +1,66 @@
-<div ng-controller="homeController">
-    <div class="headline header" id="ID_line_76295">
-        <div class="background" id="ID_line_background_76295"></div>
-        <div class="container ">
-            <div class="container-directive">
-                <div class="row sortable sortable-container header">
-                    <div class="container-sortable float-left fullwidth">
-                        <div id="wrapper-73819" class="wrapper float-left">
-                            <div class="fullwidth float-left">
-                                <div class="float-left column-id-139914 col-front liaisons-sortable tp-line col container-column">
-                                    <div id="liaison-305235" class="liaison-container columns-padding col-xs-12"><div class="portlet margin-contenu">
-                                        <div id="ID_plugin_305235" class="margin-auto padding-auto">
-                                            <p>{{headerNavbar.title}}</p>
-                                        </div>
-                                    </div>
-                                    </div>
-                                </div>
-                                <div class="float-left column-id-139915 col-front liaisons-sortable tp-line col container-column">
-                                    <div id="liaison-305236" class="liaison-container columns-padding col-xs-12">
-                                        <div class="portlet margin-contenu"><div id="ID_plugin_305236" class="margin-auto padding-auto">
-                                            <p><strong>Vous avez des questions :</strong></p>
-                                        </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="float-left column-id-139916 col-front liaisons-sortable tp-line col container-column">
-                                    <div id="liaison-305237" class="liaison-container columns-padding col-xs-12">
-                                        <div class="portlet margin-contenu">
-                                            <div id="ID_plugin_305237" class="margin-auto padding-auto">
-                                                <p><span class="align-icon fa fa-phone2"></span>&nbsp;{{headerNavbar.telephone}}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="float-left column-id-139917 col-front liaisons-sortable tp-line col container-column">
-                                    <div id="liaison-305238" class="liaison-container columns-padding col-xs-12">
-                                        <div class="portlet margin-contenu">
-                                            <div id="ID_plugin_305238" class="margin-auto padding-auto">
-                                                <p><span class="align-icon fa fa-at-sign"></span>&nbsp;{{headerNavbar.email}}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+<header class="navbar-fixed-top" style="position: relative">
+    <div class="top_bar">
+        <div class="container">
+            <div class="col-md-6">
+                <h4 class="social titre">Albasoft Consulting</h4>
+                <!--<ul class="social">-->
+                <!--<li>Albasoft Consulting</li>-->
+                <!--&lt;!&ndash;<li><a target="_blank" href="https://webenlance.com"><i class="fa fa-twitter text-white"></i></a></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;<li><a target="_blank" href="http://webenlance.com"><i class="fa fa-instagram text-white"></i></a></li>&ndash;&gt;-->
+                <!--</ul>-->
+            </div>
+
+            <div class="col-md-6">
+                <ul class="rightc">
+                    <li><i class="glyphicon glyphicon-envelope"></i> contact@albasoft.fr</li>
+                    <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i> +221 33 800 00 00</li>
+                </ul>
             </div>
         </div>
     </div>
-    <div class="headline " id="ID_line_76297">
-        <div class="background" id="ID_line_background_76297"></div>
-        <div class="container ">
-            <div class="container-directive">
-                <div class="row sortable sortable-container ">
-                    <div class="container-sortable float-left fullwidth">
-                        <div id="wrapper-73821" class="wrapper float-left">
-                            <div class="fullwidth float-left">
-                                <div class="float-left column-id-139919 col-front liaisons-sortable tp-line col container-column">
-                                    <div id="liaison-305240" class="liaison-container columns-padding col-xs-12">
-                                        <div class="portlet margin-image">
-                                            <div id="ID_plugin_305240" class="margin-auto container-img">
-                                                <div class="img-align-plugin css-property-item img-container-4873365">
-                                                    <img alt="log_albasoft" class="img-wb-plugin " src="img/logo.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="float-left column-id-139920 col-front liaisons-sortable tp-line col container-column">
-                                    <div id="liaison-305241" class="liaison-container columns-padding col-xs-12">
-                                        <div class="portlet margin-menu">
-                                            <!-- START MAIN MENU-->
-                                            <nav class="module-menu margin-auto style-4" id="ID_plugin_305241">
-                                                <ul class="menu">
-                                                    <li ng-class="acceuil">
-                                                        <span class="menu-before"></span><a ui-sref="acceuil" title="Accueil"><span class="css-property-item">{{headerNavbar.menu.entry1}}</span></a>
-                                                    </li>
-                                                    <li ng-class="apropos">
-                                                        <span class="menu-before"></span><a ui-sref="a-propos" title="A propos"><span class="css-property-item">{{headerNavbar.menu.entry2}}</span></a>
-                                                    </li>
-                                                    <li ng-class="service"><span class="menu-before">
-                                                        </span><a ui-sref="nos-services" title="Nos services"><span class="css-property-item">{{headerNavbar.menu.entry3}}</span></a>
-                                                    </li>
-                                                    <li ng-class="temoignage"><span class="menu-before">
-                                                        </span><a ui-sref="temoignages" title="Témoignages"><span class="css-property-item">{{headerNavbar.menu.entry4}}</span></a>
-                                                    </li>
-                                                    <li ng-class="contact">
-                                                        <span class="menu-before"></span><a ui-sref="contact" title="Contact"><span class="css-property-item">{{headerNavbar.menu.entry5}}</span></a>
-                                                    </li>
-                                                </ul>
-                                            </nav>
-                                            <!-- END MAIN MENU-->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <!--top_bar-->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/logo2.png"></a>
             </div>
-        </div>
-    </div>
-</div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="menu nav navbar-nav navbar-right" id="ID_plugin_305241">
+                    <li ng-class="acceuil">
+                        <span class="menu-before"></span><a ui-sref="acceuil" title="Accueil"><span class="css-property-item">Accueil</span></a>
+                    </li>
+                    <li ng-class="apropos">
+                        <span class="menu-before"></span><a ui-sref="a-propos" title="A propos"><span class="css-property-item">A propos</span></a>
+                    </li>
+                    <li ng-class="service"><span class="menu-before">
+                        </span><a ui-sref="nos-services" title="Nos services"><span class="css-property-item">Nos services</span></a>
+                    </li>
+                    <li ng-class="contact">
+                        <span class="menu-before"></span><a ui-sref="contact" title="Contact"><span class="css-property-item">Contact</span></a>
+                    </li>
+                </ul>
+                <!--<ul class="menu nav navbar-nav navbar-right">-->
+                <!--<li ng-class="acceuil"><a ui-sref="acceuil">Accueil</a></li>-->
+                <!--<li ng-class="apropos">-->
+                <!--<a ui-sref="a-propos">A propos</a>-->
+                <!--</li>-->
+                <!--<li ng-class="service"><a ui-sref="nos-services">Nos services</a></li>-->
+                <!--<li ng-class="contact"><a ui-sref="contact">Contact</a></li>-->
+                <!--</ul>-->
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+</header>

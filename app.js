@@ -1,67 +1,93 @@
 'use strict';
 
-var albasoftApp = angular.module('albasoftApp', ['ui.router','ngTouch','ngAnimate','anim-in-out']);
+var albasoftApp = angular.module('albasoftApp', ['ui.router','ngTouch','angular-loading-bar','angularSpinner']);
 
-albasoftApp.config(function ($stateProvider, $urlRouterProvider,$locationProvider) {
-
+albasoftApp.config(['$stateProvider','$urlRouterProvider','cfpLoadingBarProvider','$locationProvider','usSpinnerConfigProvider',
+    function ($stateProvider, $urlRouterProvider,$locationProvider, cfpLoadingBarProvider, usSpinnerConfigProvider) {
+        cfpLoadingBarProvider.parentSelector = '#loading-bar-container';
+        cfpLoadingBarProvider.includeBar = true;
+        cfpLoadingBarProvider.includeSpinner = true;
+        usSpinnerConfigProvider.setDefaults({color: 'blue'});
     //$locationProvider.html5Mode(true);
     $urlRouterProvider.otherwise('/');
 
     $stateProvider
         .state('home', {
-           url : '/',
-            templateUrl : 'templates/content.html',
-            controller : 'homeController'
+            url : '/',
+            views : {
+                header : {
+                    templateUrl : 'templates/header.html'
+                },
+                '@' : {
+                    templateUrl : 'templates/content.html',
+                    controller : 'homeController'
+                },
+                footer : {
+                    templateUrl : 'templates/footer.html'
+                }
+            }
         })
         .state('nos-services', {
             url : '/nos-services',
-            templateUrl : 'templates/nos-services.html',
-            controller : 'serviceController'
+            views : {
+                header : {
+                    templateUrl : 'templates/header.html'
+                },
+                '' : {
+                    templateUrl : 'templates/nos-services.html',
+                    controller : 'serviceController'
+                },
+                footer : {
+                    templateUrl : 'templates/footer.html'
+                }
+            }
         })
         .state('a-propos', {
             url : '/a-propos',
-            templateUrl : 'templates/a-propos.html',
-            controller : 'apropoController'
-        })
-        .state('temoignages', {
-            url : '/temoignages',
-            templateUrl : 'templates/temoignages.html',
-            controller : 'temoignageController'
+            views : {
+                header : {
+                    templateUrl : 'templates/header.html'
+                },
+                '' : {
+                    templateUrl : 'templates/a-propos.html',
+                    controller : 'apropoController'
+                },
+                footer : {
+                    templateUrl : 'templates/footer.html'
+                }
+            }
         })
         .state('contact', {
             url : '/contact',
-            templateUrl : 'templates/contact.html',
-            controller : 'contactController'
+            views : {
+                header : {
+                    templateUrl : 'templates/header.html'
+                },
+                '' : {
+                    templateUrl : 'templates/contact.html',
+                    controller : 'contactController'
+                },
+                footer : {
+                    templateUrl : 'templates/footer.html'
+                }
+            }
         })
         .state('acceuil', {
             url : '/',
-            templateUrl : 'templates/content.html',
-            controller : 'homeController'
+            views : {
+                header : {
+                    templateUrl : 'templates/header.html'
+                },
+                '' : {
+                    templateUrl : 'templates/content.html',
+                    controller : 'homeController'
+                },
+                footer : {
+                    templateUrl : 'templates/footer.html'
+                }
+            }
         });
 
- })
-/*.run(['$rootScope', '$state', '$stateParams', function ($rootScope,$state,$stateParams) {
-    $rootScope.controllerName = "homeController";
-    $rootScope.$on('$stateChangeStart',
-        function(event, toState, toParams, fromState, fromParams){
-            console.log('testApp#run#stateChangeStart; from:', fromState.name, ' to:', toState.name);
-            switch (toState.name)
-            {
-                case 'home.nos-services' :
-                    $rootScope.controllerName = 'serviceController';
-                    break;
-                case 'home.a-propos' :
-                    $rootScope.controllerName = 'apropoController';
-                    break;
-                case 'home.temoignages' :
-                    $rootScope.controllerName = 'temoignageController';
-                    break;
-                case 'home.contact' :
-                    $rootScope.controllerName = 'contactController';
-                    break;
-                default :
-                    $rootScope.controllerName = 'homeController';
-                    break;
-            };
-        });
-}]);*/
+ }])
+.run(['$rootScope', '$state', '$stateParams', function ($rootScope) {
+}]);
